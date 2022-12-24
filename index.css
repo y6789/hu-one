@@ -27,14 +27,14 @@
 .left{
     float: left;
     width: 100px ;
-    height: 989px ;
+    height: 68rem ;
      background-color: rgb(236, 231, 231);
 
 }
 .right{
     float: right;
     width: 280px ;
-   height: 989px;
+   height: 68rem;
      background-color: rgb(236, 231, 231);
 }
 
@@ -67,13 +67,18 @@
 }
 
 .nbys{
-  
+  display: inline;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+
   margin: auto;
-  width: 50px auto;
+
+  
   padding: 35px;
-  box-sizing: border-box;
+  
   border: #2bffff solid rgb(214, 211, 211);
   /**justify-content: center;
   background-color: rgb(255, 255, 255);**/
@@ -104,12 +109,14 @@
 }
 
 .huanhan{
-  width: 410px;
   
+  width: auto;
+  word-wrap: break-word;
   word-break: break-all;
   color: black;
   font-size: 22px;
-  line-height: 0;
+  line-height: 30px;
+  
   /**text-decoration: underline;  下划线**/
 }
 
@@ -122,20 +129,8 @@ a{
  font-size: 16px;
 }
 
-.x{
-  
- 
-}
 
 .cc{
-  width: 10001;
   word-break: break-all;
-  word-wrap: break-word;
- color: black;
- font-size: 14px;
- line-height: 22px;
- display: flex;
- flex-direction: column;
- justify-content: flex-end;
- word-wrap: break-word;
+  
 }
