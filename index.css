@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.db{
+    width: 20px a;
+    height: 60px ;
+    background-color: aqua;
+    border: 12px auto;
+   
+    justify-content: end;
+  
+}
+
+.cnbj{/**logo**/
+  
+  margin-left: 10px;
+   line-height: 60px;
+   font-size: 1.5rem;
+}
+
+.container{/**三栏**/
+   background-color: ghostwhite;
+
+}
+
+.left{
+    float: left;
+    width: 100px ;
+    height: 989px ;
+     background-color: rgb(236, 231, 231);
+
+}
+.right{
+    float: right;
+    width: 280px ;
+   height: 989px;
+     background-color: rgb(236, 231, 231);
+}
+
+.main{
+    background-color:#F0FFFF;
+    margin-left:80px auto;
+    margin-right:80px auto;
+    
+
+   
+    
+}
+.a{
+  text-align: center;
+  /**width: 25px;    在设置文字居中时注意不要设置width,否则会出现文字垂直的现象**/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+
+
+}
+.jz{
+     text-align: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  
+}
+
+.nbys{
+  
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 50px auto;
+  padding: 35px;
+  box-sizing: border-box;
+  border: #2bffff solid rgb(214, 211, 211);
+  /**justify-content: center;
+  background-color: rgb(255, 255, 255);**/
+  
+}
+
+
+.dibu{
+  /** display: flex;
+    align-items: flex-end;
+    justify-content: space-between;**/
+ 
+    width: 100%;
+    height: 60px;
+    background-color: rgb(39, 101, 121);
+ 
+    padding-bottom: 2px;
+    
+    font-size: 14px;
+ 
+
+   
+}
+.dibu{
+  text-align: center;
+  line-height: 60px;  /**line-height 用于无法向盒内居中 要注意与height为1比1，即height：10px  line-height：10px**/ 
+  top: 10px;
+}
+
+.huanhan{
+  width: 410px;
+  
+  word-break: break-all;
+  color: black;
+  font-size: 22px;
+  line-height: 0;
+  /**text-decoration: underline;  下划线**/
+}
+
+em{
+  font-style: normal;
+  font-size: 22px ;
+  
+}
+a{
+ font-size: 16px;
+}
+
+.x{
+  
+ 
+}
+
+.cc{
+  width: 10001;
+  word-break: break-all;
+  word-wrap: break-word;
+ color: black;
+ font-size: 14px;
+ line-height: 22px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ word-wrap: break-word;
+}
